@@ -1,4 +1,3 @@
-import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import Button from "react-bootstrap/Button";
@@ -16,7 +15,7 @@ function MyNavigation() {
             className="justify-content-end"
           >
             <Nav>
-              <Nav.Link href="#contact" className="text-dark">Contact us</Nav.Link>
+              <Nav.Link href="#" className="text-dark">Contact us</Nav.Link>
               <Button variant="warning" className="mx-3">Signup</Button>
             </Nav>
           </Navbar.Collapse>
